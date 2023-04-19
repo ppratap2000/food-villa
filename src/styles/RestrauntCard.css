@@ -1,0 +1,32 @@
+.card{
+   display: flex;
+   flex-direction: column;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+    border-radius: 5px;
+
+}
+.card>img{
+  width: 100%;
+}
+.card>h2{
+ margin: 0;
+ padding: 0;
+  
+}
+.card p{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.card h4{
+display: flex;
+  justify-content: center;
+  align-items: end;
+}
